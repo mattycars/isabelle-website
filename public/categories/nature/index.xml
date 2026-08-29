@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nature on Isabelle Schmeler</title>
+    <link>//localhost:1313/categories/nature/</link>
+    <description>Recent content in Nature on Isabelle Schmeler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>user@example.com (Isabelle Schmeler)</managingEditor>
+    <webMaster>user@example.com (Isabelle Schmeler)</webMaster>
+    <copyright>© Isabelle Schmeler</copyright>
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/categories/nature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dolly</title>
+      <link>//localhost:1313/tv/dolly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Isabelle Schmeler)</author>
+      <guid>//localhost:1313/tv/dolly/</guid>
+        <media:content url="//localhost:1313/tv/dolly/IMG_1978_hu_64a7d2cba14490fb.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;//localhost:1313/tv/dolly/IMG_1978_hu_64a7d2cba14490fb.jpg&quot; /&gt;
+          &lt;p&gt;Dolly was a fun story&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>USS Lincoln</title>
+      <link>//localhost:1313/tv/uss-lincoln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Isabelle Schmeler)</author>
+      <guid>//localhost:1313/tv/uss-lincoln/</guid>
+        <media:content url="//localhost:1313/tv/uss-lincoln/IMG_0440_hu_352572b7b1c848bd.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;//localhost:1313/tv/uss-lincoln/IMG_0440_hu_352572b7b1c848bd.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>TV Packages</title>
+      <link>//localhost:1313/tv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Isabelle Schmeler)</author>
+      <guid>//localhost:1313/tv/</guid>
+        <media:content url="//localhost:1313/tv/IMG_2140_hu_d38a69b4f4115a11.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;//localhost:1313/tv/IMG_2140_hu_d38a69b4f4115a11.jpg&quot; /&gt;
+          &lt;p&gt;Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Cats</title>
+      <link>//localhost:1313/example/cats/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate><author>user@example.com (Isabelle Schmeler)</author>
+      <guid>//localhost:1313/example/cats/</guid><description>&lt;no value&gt;</description></item>
+    <item>
+      <title>Dogs</title>
+      <link>//localhost:1313/example/dogs/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0100</pubDate><author>user@example.com (Isabelle Schmeler)</author>
+      <guid>//localhost:1313/example/dogs/</guid><description>&lt;no value&gt;</description></item>
+  </channel>
+</rss>

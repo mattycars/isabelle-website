@@ -1,0 +1,25 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Quotes on Isabelle Schmeler</title>
+  <link href="http://localhost:41343/tags/quotes/feed.xml" rel="self"/>
+  <link href="http://localhost:41343/tags/quotes/"/>
+  <updated>2021-08-08T11:34:19+00:00</updated>
+  <id>http://localhost:41343/tags/quotes/</id>
+  <author>
+    <name>Isabelle Schmeler</name>
+  </author>
+  <generator>Hugo -- gohugo.io</generator>
+  <entry>
+    <title type="html"><![CDATA[ade8b85b-16ac-437b-b55c-1f1a622f07ec]]></title>
+    <link href="http://localhost:41343/posts/ade8b85b-16ac-437b-b55c-1f1a622f07ec/"/>
+    <id>http://localhost:41343/posts/ade8b85b-16ac-437b-b55c-1f1a622f07ec/</id> 
+    <author>
+      <name>Isabelle Schmeler</name>
+    </author>
+    <published>2021-08-08T11:34:19+00:00</published>
+    <updated>2021-08-08T11:34:19+00:00</updated>
+    
+    <content type="html"><![CDATA[<p>I&rsquo;m see-through!</p>
+]]></content>
+    
+  </entry>
+</feed>

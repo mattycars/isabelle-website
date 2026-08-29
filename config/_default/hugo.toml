@@ -1,0 +1,42 @@
+theme = "gallery"
+copyright = "© Isabelle Schmeler"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
+locale = "en-us"
+timeZone = "Europe/Berlin"
+timeout = "120s"
+title = "Isabelle Schmeler"
+
+[params]
+  defaultTheme = "dark"
+  description = "Journalism portfolio"
+  title = "Isabelle Schmeler"
+  [params.author]
+    email = "user@example.com"
+    name = "Isabelle Schmeler"
+  [params.socialIcons]
+    email = "mailto:user@example.com"
+  [params.gallery]
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[imaging]
+  quality = 75
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription|Orientation"
+
+[services]
+  [services.rss]
+    limit = 100
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
