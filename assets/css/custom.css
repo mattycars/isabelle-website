@@ -72,6 +72,38 @@ section.reel img {
   }
 }
 
+/* Keep album galleries aligned with the rest of the page instead of full-bleed */
+section.gallery {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+/* Responsive video embed (NBC News, YouTube, etc.) */
+.video-embed {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  max-width: 960px;
+  margin: 0 auto 1.5rem;
+}
+
+.video-embed iframe,
+.video-embed video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 0.75rem;
+}
+
+.video-embed--file video {
+  object-fit: contain;
+  background: #000;
+}
+
 /* Writing Clips prose list */
 .prose ul {
   padding-left: 1.25rem;

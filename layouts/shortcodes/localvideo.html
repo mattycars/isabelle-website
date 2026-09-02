@@ -1,0 +1,12 @@
+{{- /* Embed a video file that lives in the page bundle, centered & responsive.
+       Usage: {{< localvideo src="clip.mp4" poster="poster.jpg" >}} */ -}}
+{{- $src := .Get "src" -}}
+{{- $poster := .Get "poster" -}}
+{{- with $.Page.Resources.GetMatch $src -}}
+  <div class="video-embed video-embed--file">
+    <video controls preload="metadata" playsinline
+      {{ with $.Page.Resources.GetMatch ($poster | default "") }}poster="{{ .RelPermalink }}"{{ end }}>
+      <source src="{{ .RelPermalink }}" type="video/mp4" />
+    </video>
+  </div>
+{{- end -}}

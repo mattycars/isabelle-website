@@ -10,6 +10,6 @@ resources:
       cover: true
 ---
 
-<iframe width="560" height="315" src="https://www.nbcnews.com/nightly-news/video/uss-abraham-lincoln-to-head-home-amid-concerns-about-living-conditions-268282949895" frameborder="0" allowfullscreen></iframe>
+{{< nbcvideo id="268282949895" title="USS Abraham Lincoln to head home amid concerns about living conditions" >}}
 
 [Watch on NBC News →](https://www.nbcnews.com/nightly-news/video/uss-abraham-lincoln-to-head-home-amid-concerns-about-living-conditions-268282949895)

@@ -17,6 +17,7 @@ title = "Isabelle Schmeler"
     email = "user@example.com"
     name = "Isabelle Schmeler"
   [params.socialIcons]
+    linkedin = "https://www.linkedin.com/in/isabelle-schmeler-b31881166/"
     email = "mailto:user@example.com"
   [params.gallery]
 

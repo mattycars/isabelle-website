@@ -2,3 +2,10 @@
 /public/
 /resources/
 .hugo_build.lock
+
+# Windows/WSL metadata
+*:Zone.Identifier
+*Zone.Identifier
+
+# Large video sources (transcoded copies live in the content bundles)
+assets/photos-pool/*.mov

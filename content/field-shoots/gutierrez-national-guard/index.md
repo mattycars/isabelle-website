@@ -1,7 +1,8 @@
 ---
-title: "Gutierrez National Guard"
-date: 2026-01-20
+title: "Gutierrez National Guard (August 2025)"
+date: 2025-08-15
 description: "Isabelle scouted out live locations across Washington where National Guard presence was most apparent."
+hide_gallery: true
 params:
   year: "2025"
   theme: dark
@@ -11,4 +12,4 @@ resources:
       cover: true
 ---
 
-**2025** · *Final package video coming soon.*
+{{< nbcvideo id="245012549559" title="More federal agents and National Guard troops patrolling DC" >}}

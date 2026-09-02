@@ -1,9 +1,9 @@
 ---
-title: "Bensten / Schone"
-date: 2025-10-08
-description: "Isabelle gathered material in the field for a long-form TODAY show piece."
+title: "Bensten Schone (August 2026)"
+date: 2026-08-15
+description: 'Isabelle gathered material in the field for the "Grit" segment of the TODAY show.'
+hide_gallery: true
 params:
-  year: "2025"
   theme: dark
 resources:
   - src: "cover.jpg"
@@ -11,4 +11,6 @@ resources:
       cover: true
 ---
 
-**2025** · *Final package video coming soon.*
+{{< nbcvideo id="269005893683" host="today.com" title="HS senior learns to walk again after accident, now running track" >}}
+
+[Read the story on TODAY &rarr;](https://www.today.com/health/childrens-health/boy-hit-car-coma-age-runs-high-school-cross-country-exclusive-rcna594534)

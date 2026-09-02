@@ -1,0 +1,12 @@
+{{- /* Embed an NBC News / TODAY video by its numeric id.
+       Usage:  {{< nbcvideo id="245012549559" title="More federal agents patrolling DC" >}}
+       TODAY:  {{< nbcvideo id="267506245662" host="today.com" title="NASA telescope" >}}
+       The id is the trailing number on an nbcnews.com / today.com  /...video/...  URL. */ -}}
+{{- $id := or (.Get "id") (.Get 0) -}}
+{{- $host := or (.Get "host") "nbcnews.com" -}}
+{{- $title := or (.Get "title") "Video" -}}
+{{- with $id }}
+<div class="video-embed">
+  <iframe src="https://www.{{ $host }}/news/embedded-video/mmvo{{ . }}" title="{{ $title }}" scrolling="no" frameborder="0" loading="lazy" allowfullscreen></iframe>
+</div>
+{{- end }}
