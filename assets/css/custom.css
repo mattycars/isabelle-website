@@ -33,3 +33,51 @@ body > header {
   margin-bottom: 0;
 }
 */
+
+/* Intro "reel" — horizontal scrolling strip of field photos on the homepage */
+section.reel {
+  margin: 0 auto 3rem;
+  max-width: 1280px;
+}
+
+section.reel .reel-track {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 1.5rem 0.75rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+section.reel figure {
+  flex: 0 0 auto;
+  margin: 0;
+  scroll-snap-align: start;
+}
+
+section.reel img {
+  height: 15rem;
+  width: auto;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  display: block;
+}
+
+@media (min-width: 640px) {
+  section.reel .reel-track {
+    padding-bottom: 1rem;
+  }
+  section.reel img {
+    height: 18rem;
+  }
+}
+
+/* Writing Clips prose list */
+.prose ul {
+  padding-left: 1.25rem;
+}
+
+.prose li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}

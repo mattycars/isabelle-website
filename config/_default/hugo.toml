@@ -4,14 +4,15 @@ defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 enableRobotsTXT = true
 locale = "en-us"
-timeZone = "Europe/Berlin"
+timeZone = "America/New_York"
 timeout = "120s"
 title = "Isabelle Schmeler"
 
 [params]
   defaultTheme = "dark"
-  description = "Journalism portfolio"
+  description = "Journalist producing stories and writing about all things politics."
   title = "Isabelle Schmeler"
+  # TODO: replace placeholder contact details with Isabelle's real email / social links
   [params.author]
     email = "user@example.com"
     name = "Isabelle Schmeler"
@@ -25,8 +26,9 @@ title = "Isabelle Schmeler"
   section = ["HTML"]
 
 [imaging]
-  quality = 75
   resampleFilter = "CatmullRom"
+  [imaging.jpeg]
+    quality = 75
   [imaging.exif]
     disableDate = false
     disableLatLong = true

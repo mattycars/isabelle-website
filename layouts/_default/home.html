@@ -1,0 +1,42 @@
+{{ define "main" }}
+  {{ partial "title.html" . }}
+
+  {{/* Intro "reel" — horizontal strip of field photos from assets/photos-pool */}}
+  {{ $reel := sort (resources.Match "photos-pool/*.jpg") "Name" }}
+  {{ with $reel }}
+    <section class="reel" aria-label="Isabelle in the field">
+      <div class="reel-track">
+        {{ range . }}
+          {{ $img := .Filter (slice images.AutoOrient (images.Process "fit 640x480")) }}
+          <figure>
+            <img class="lazyload" width="{{ $img.Width }}" height="{{ $img.Height }}" data-src="{{ $img.RelPermalink }}" alt="" loading="lazy" />
+          </figure>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  <section class="galleries">
+    {{ range where .Pages "Params.private" "ne" true }}
+      {{ partial "album-card.html" . }}
+    {{ end }}
+
+    {{/* Manual card for Writing Clips (a prose page with no images) */}}
+    {{ $wc := .GetPage "/writing-clips" }}
+    {{ if $wc }}
+      {{ $thumbSrc := index $reel 0 }}
+      {{ with $thumbSrc }}
+        {{ $thumb := .Filter (slice images.AutoOrient (images.Process "fit 600x400")) }}
+        <a class="card" href="{{ $wc.RelPermalink }}" title="{{ $wc.Title }}">
+          <figure>
+            <img class="lazyload" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" data-src="{{ $thumb.RelPermalink }}" alt="{{ $wc.Title }}" />
+          </figure>
+          <div>
+            <h2>{{ $wc.Title }}</h2>
+            <p>Selected reporting and digital pieces</p>
+          </div>
+        </a>
+      {{ end }}
+    {{ end }}
+  </section>
+{{ end }}

@@ -7,4 +7,7 @@ menu:
     weight: 90
 ---
 
-This is a demonstration site for the Hugo Gallery theme.
+Isabelle Schmeler is a journalist who produces stories and writes about politics. Her work
+spans field production, television packages, and reporting for NBC News.
+
+*TODO: replace with Isabelle's full bio and contact details.*
