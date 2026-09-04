@@ -12,13 +12,12 @@ title = "Isabelle Schmeler"
   defaultTheme = "dark"
   description = "Journalist producing stories and writing about all things politics."
   title = "Isabelle Schmeler"
-  # TODO: replace placeholder contact details with Isabelle's real email / social links
   [params.author]
-    email = "user@example.com"
+    email = "ischmeler18@gmail.com"
     name = "Isabelle Schmeler"
   [params.socialIcons]
     linkedin = "https://www.linkedin.com/in/isabelle-schmeler-b31881166/"
-    email = "mailto:user@example.com"
+    email = "mailto:ischmeler18@gmail.com"
   [params.gallery]
 
 [outputs]

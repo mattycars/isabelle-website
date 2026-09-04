@@ -1,6 +1,6 @@
 ---
 title: Field Shoots
-description: Producing and shooting in the field — scouting locations, gathering material, and turning around live shots and long-form pieces.
+description: Isabelle has extensive field producing experience across all beats including politics, transportation, and feature stories.
 weight: 1
 menus:
   main:
@@ -8,6 +8,7 @@ menus:
     weight: 1
 params:
   theme: dark
+  card_label: select shoots
   sort_by: Date
   sort_order: desc
 resources:

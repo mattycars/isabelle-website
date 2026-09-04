@@ -1,5 +1,5 @@
 ---
-title: "Vivek Ramaswamy Interview (July 2024)"
+title: "Vivek Ramaswamy Interview"
 date: 2024-07-15
 description: "Isabelle secured an exclusive pull-aside with Republican candidate Vivek Ramaswamy following an event in Washington, D.C."
 hide_gallery: true

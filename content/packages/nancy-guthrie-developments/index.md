@@ -1,5 +1,5 @@
 ---
-title: "Nancy Guthrie Case: Breaking Developments (February 2026)"
+title: "Nancy Guthrie Case: Breaking Developments"
 date: 2026-02-15
 description: "Isabelle booked and produced interviews with security experts amidst breaking developments in the Nancy Guthrie case."
 hide_gallery: true

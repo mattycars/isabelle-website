@@ -1,5 +1,5 @@
 ---
-title: "Costello: Nancy Grace Roman Telescope (May 2026)"
+title: "Costello: Nancy Grace Roman Telescope"
 date: 2026-05-22
 description: "Isabelle suited up for an exclusive look inside the clean room at NASA's Goddard Space Flight Center ahead of the Nancy Grace Roman Telescope launch. Isabelle's iPhone footage is seen throughout the piece."
 hide_gallery: true

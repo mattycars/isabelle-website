@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ partial "title.html" . }}
+  <section class="galleries writing-clips">
+    {{ range .Params.articles }}
+      {{ $a := . }}
+      {{ $img := $.Resources.GetMatch $a.image }}
+      <a class="card" href="{{ $a.url }}" target="_blank" rel="noopener noreferrer" title="{{ $a.title }}">
+        <figure>
+          {{ with $img }}
+            {{ $t := .Fit "900x600" }}
+            <img class="lazyload" width="{{ $t.Width }}" height="{{ $t.Height }}" data-src="{{ $t.RelPermalink }}" alt="{{ $a.title }}" />
+          {{ end }}
+        </figure>
+        <div>
+          <h2>{{ $a.title }}</h2>
+          <p>NBC News{{ with $a.date }} &middot; {{ . }}{{ end }} &nearr;</p>
+        </div>
+      </a>
+    {{ end }}
+  </section>
+{{ end }}

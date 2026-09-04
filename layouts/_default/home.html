@@ -17,23 +17,26 @@
   {{ end }}
 
   <section class="galleries">
-    {{ range where .Pages "Params.private" "ne" true }}
+    {{/* Section cards only (Field Shoots, Packages); Writing Clips is added manually below */}}
+    {{ range where .Sections "Params.private" "ne" true }}
       {{ partial "album-card.html" . }}
     {{ end }}
 
-    {{/* Manual card for Writing Clips (a prose page with no images) */}}
+    {{/* Writing Clips — manual card so we control the label ("N articles", not "N photos") */}}
     {{ $wc := .GetPage "/writing-clips" }}
-    {{ if $wc }}
-      {{ $thumbSrc := index $reel 0 }}
-      {{ with $thumbSrc }}
-        {{ $thumb := .Filter (slice images.AutoOrient (images.Process "fit 600x400")) }}
-        <a class="card" href="{{ $wc.RelPermalink }}" title="{{ $wc.Title }}">
+    {{ with $wc }}
+      {{ $imgs := .Resources.ByType "image" }}
+      {{ $cover := or ($imgs.GetMatch "young-voters-democracy.jpg") (index $imgs 0) }}
+      {{ $count := len .Params.articles }}
+      {{ with $cover }}
+        {{ $thumb := .Fit "900x600" }}
+        <a class="card" href="{{ $wc.RelPermalink }}" title="Writing Clips">
           <figure>
-            <img class="lazyload" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" data-src="{{ $thumb.RelPermalink }}" alt="{{ $wc.Title }}" />
+            <img class="lazyload" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" data-src="{{ $thumb.RelPermalink }}" alt="Writing Clips" />
           </figure>
           <div>
-            <h2>{{ $wc.Title }}</h2>
-            <p>Selected reporting and digital pieces</p>
+            <h2>Writing Clips</h2>
+            <p>{{ $count }} select articles</p>
           </div>
         </a>
       {{ end }}

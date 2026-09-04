@@ -104,12 +104,34 @@ section.gallery {
   background: #000;
 }
 
-/* Writing Clips prose list */
-.prose ul {
-  padding-left: 1.25rem;
+/* Photos inside prose pages (e.g. About) */
+.prose img {
+  border-radius: 0.75rem;
+  max-height: 70vh;
+  width: auto;
+  display: block;
 }
 
-.prose li {
-  margin-bottom: 0.75rem;
-  line-height: 1.5;
+/* Writing Clips — article cards */
+.writing-clips .card > figure,
+.writing-clips .card figure > img {
+  aspect-ratio: 16 / 9;
+}
+
+.writing-clips .card {
+  transition: transform 150ms ease;
+}
+
+.writing-clips .card:hover {
+  transform: translateY(-3px);
+}
+
+.writing-clips .card h2 {
+  text-wrap: balance;
+}
+
+.writing-clips .card p {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.8125rem;
 }

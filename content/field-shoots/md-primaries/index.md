@@ -1,5 +1,5 @@
 ---
-title: "MD Primaries (June 2026)"
+title: "MD Primaries"
 date: 2026-06-15
 description: "Isabelle connected with campaign officials across the state to secure interviews with government officials and live shots from polling locations, despite some unexpected weather."
 params:

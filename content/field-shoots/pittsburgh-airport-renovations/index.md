@@ -1,5 +1,5 @@
 ---
-title: "Pittsburgh Airport Renovations (November 2025)"
+title: "Pittsburgh Airport Renovations"
 date: 2025-11-15
 description: "Isabelle field produced elements and live shots at her new and improved hometown airport."
 hide_gallery: true

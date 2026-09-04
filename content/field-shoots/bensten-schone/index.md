@@ -1,5 +1,5 @@
 ---
-title: "Bensten Schone (August 2026)"
+title: "Bensten Schone"
 date: 2026-08-15
 description: 'Isabelle gathered material in the field for the "Grit" segment of the TODAY show.'
 hide_gallery: true

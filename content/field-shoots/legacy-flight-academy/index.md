@@ -1,5 +1,5 @@
 ---
-title: "Legacy Flight Academy (June 2026)"
+title: "Legacy Flight Academy"
 date: 2026-06-18
 description: 'Isabelle field produced elements and conducted interviews with characters as part of NBC Nightly News'' "Great Americans" segment.'
 hide_gallery: true

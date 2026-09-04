@@ -1,5 +1,5 @@
 ---
-title: "Iowa Caucuses & Drake University Debate (January 2024)"
+title: "Iowa Caucuses & Drake University Debate"
 date: 2024-01-15
 description: "Isabelle drove all across Iowa in negative-degree weather coordinating coverage of the leading Republican candidates, attending the primary debate at Drake University, and taking ownership of a caucus site in rural Iowa."
 params:

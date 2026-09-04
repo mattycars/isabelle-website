@@ -1,5 +1,5 @@
 ---
-title: "Gutierrez National Guard (August 2025)"
+title: "Gutierrez National Guard"
 date: 2025-08-15
 description: "Isabelle scouted out live locations across Washington where National Guard presence was most apparent."
 hide_gallery: true

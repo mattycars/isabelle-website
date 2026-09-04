@@ -1,5 +1,5 @@
 ---
-title: "Costello / Duffy Interview (May 2026)"
+title: "Costello / Duffy Interview"
 date: 2026-05-10
 description: "Isabelle produced a live interview with Transportation Secretary Sean Duffy for a hard turnaround on the TODAY show."
 hide_gallery: true
